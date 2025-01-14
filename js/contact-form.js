@@ -19,6 +19,6 @@ function sendForm() {
         window.location.href = newPath;
     } else {
         document.getElementById('result').textContent =
-            'Неверный адрес электронной почты. Пожалуйста, введите действительный адрес электронной почты.';
+            'Invalid e-mail address. Please enter a valid e-mail address.';
     }
 }
